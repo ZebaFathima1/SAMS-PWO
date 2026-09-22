@@ -1,0 +1,2 @@
+@model Subject
+@{ViewData["Title"]="Add subject";}<div class="panel form-panel"><form asp-action="Create" method="post"><div asp-validation-summary="ModelOnly" class="text-danger"></div><partial name="_SubjectForm" model="Model"/><button class="btn btn-primary">Save subject</button> <a asp-action="Index" class="btn btn-light">Cancel</a></form></div>
